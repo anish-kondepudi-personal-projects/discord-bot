@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 from quotes import aaron, homework, mia, ian, matt
 from random import randint
+from dotenv import load_dotenv
+import os
 
 client = commands.Bot(command_prefix = '.')
 
@@ -52,4 +54,6 @@ async def on_message(message):
 			quote = homework()
 			await channel.send(quote)
 
-client.run(TOKEN)
+load_dotenv()
+DISCORD_TOKEN_KEY = os.getenv("DISCORD_TOKEN_KEY")
+client.run(DISCORD_TOKEN_KEY)
