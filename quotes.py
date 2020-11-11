@@ -23,9 +23,9 @@ def homework():
 
 # Quotes for Mia
 def mia():
-	quotes = ["Okay, no need to flex.... we all get that you're smart kombuchan!!",
-			"Wow... you're actually so smart. I strive to reach your level on day kombuchan.",
-			"Kombuchan's brain literally operates on another dimension... wow, so smart...",
+	quotes = ["Kombuchan is literally like the smartest person I know... I wish I could ascend to that level one day!",
+			"Wow... you're actually so smart. I strive to reach your level one day kombuchan.",
+			"Kombuchan's brain literally operates on another dimension... so smart...",
 			"Ingenius!! Truly the pinnacle of human intellect!"]
 	return choice(quotes)
 
